@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffffff;
+        }
+        .container {
+            text-align: center;
+            padding: 8px;
+            border: 2px solid #ccc;
+            background-color: #f0f0f0;
+        }
+        #preview {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+        input[type="file"] {
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img id= "preview" src="#" alt = "Preview"><br>
+        <input type="file" id="uploadBtn" accept="image/*">
+    </div>
+    <script src="index.js"></script>    
+</body>
+</html>
